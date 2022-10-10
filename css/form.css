@@ -1,6 +1,7 @@
 body{
     font-family: 'Almendra', sans-serif;
-    background-image: url("img/tlo.png");
+    background-image: url("img/tlo.png");   /*link do strony z której pobrałem obrazek https://pl.pngtree.com/element/down?id=MzkwNTIyMg==&type=1&time=1665429381&token=NGRkYTM4ZDBhOGViNWIxYWIwOWZlODFkZWE5MmQ1Mjg=&t=0*/
+    background-color: rgb(197, 227, 228);
 }
 
 
@@ -14,6 +15,7 @@ body{
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     border-radius: 5px;
+    background-color: rgba(241, 240, 240, 0.993);
 }
 
 .basic-title{
