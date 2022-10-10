@@ -9,12 +9,18 @@ body{
     margin-right: auto;
     border-left: solid 2px black;
     border-right: solid 2px black;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    border-radius: 5px;
 }
 
 .basic-title{
     float: left;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     width: 1000px;
     height: 50px;
+    background-color: rgb(97, 98, 167);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
