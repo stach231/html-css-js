@@ -1,6 +1,20 @@
+body{
+    font-family: 'Almendra', sans-serif;
+}
+
+#task-frontend{
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+
 .basic-title{
     float: left;
-    width: 1vw;
-    height: 100px;
     text-align: center;
+    font-size: 20px;
+    width: 1000px;
+    height: 50px;
 }
