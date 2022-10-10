@@ -1,6 +1,8 @@
 body{
     font-family: 'Almendra', sans-serif;
+    background-image: url("img/tlo.png");
 }
+
 
 #task-frontend{
     width: 1000px;
