@@ -16,14 +16,14 @@
 <head>
 	<title>AKAI Frontend Task</title>
 	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link href='http://fonts.googleapis.com/css?family=Almendra&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
-    <!--
-        ...
-        ...
-        ...
-    -->
+    <?php
+		if(empty("first-name")) echo "Wpisz imię!";
+
+	?>
 
 	<!-- początek formularza -->
 
@@ -38,34 +38,39 @@
 		<form method="POST">
 
 			<!-- od użytkownika pobieramy imię, nazwisko, email oraz informację, do jakiej sekcji chce dołączyć -->
-
+			<div class="hack"></div>
+			<div class="tile">
 			<label for="first-name">Imię</label>
-		    <input type="text" id="first-name"/>
-
+		    <input type="text" id="first-name" class="text"/></div>
+			<div class="tile">
             <label for="last-name">Nazwisko</label>
-		    <input type="text" id="last-name"/>
-
+		    <input type="text" id="last-name" class="text"/></div>
+			<div class="tile">
 			<label for="email">Email</label>
-		    <input type="email" id="email"/>
-
-			<span>Sekcja</span>
+		    <input type="email" id="email" class="text"/></div>
+			<div class="tile3">
+			<span>Sekcja</span></div>
+			<div class="tile4">
+			<div class="tile2">
             <input type="checkbox" id="frontend-checkbox" name="section" value="frontend">
-            <label for="frontend-checkbox">Frontend</label>
+            <label for="frontend-checkbox">Frontend</label></div>
+			<div class="tile2">
             <input type="checkbox" id="backend-checkbox" name="section" value="frontend">
-            <label for="backend-checkbox">Backend</label>
+            <label for="backend-checkbox">Backend</label></div>
+			<div class="tile2">
             <input type="checkbox" id="mobile-checkbox" name="section" value="frontend">
-            <label for="mobile-checkbox">Mobile</label>
+            <label for="mobile-checkbox">Mobile</label></div>
+			<div class="tile2">
             <input type="checkbox" id="graphics-checkbox" name="section" value="frontend">
-            <label for="graphics-checkbox">Grafika</label>
-
-            <input type="submit" value="Prześlij">
+            <label for="graphics-checkbox">Grafika</label></div>
+			</div>
+            <input type="submit" value="Prześlij" aria-disabled="true"> 
 		</form>
-
-		<hr class="form-line"></hr>
 
 	</section>
 	<!-- koniec formularza -->
 
+	
     <!--
         ...
         ...

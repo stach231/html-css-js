@@ -38,6 +38,19 @@ input[class="text"]{
     border-radius: 10px;
     background-color: rgba(241, 240, 240, 0.993);
 }
+#task-frontend[height=true]{
+    width: 500px;
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    border-radius: 10px;
+    background-color: rgba(241, 240, 240, 0.993);
+}
+/**/
 
 .basic-title{
     float: left;
