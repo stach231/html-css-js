@@ -87,17 +87,19 @@ butt.addEventListener("click", function(e){
         span.innerHTML = '<span>Sekcja</span><span style="font-size:20px; color:red; margin-left:30px;">*Zaznacz opcje!</span></div>';
         e.preventDefault();
     }else{
+        span.innerHTML = '<span>Sekcja</span>'
         pop++;
         if(pop==2){
         shape.setAttribute("height", true);
         tile0.innerHTML='<span style="font-size:20px; float: right;">Twoje zgłoszenie zostało przyjęte</span>'
-        }
         tile1.value="";
         tile2.value="";
         tile3.value="";
         for(item of checkbox){
             item.checked = false;
         }
+    }
+        
         e.preventDefault();
     }
     
